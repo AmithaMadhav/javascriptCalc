@@ -1,0 +1,36 @@
+.row{
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+    /* padding-left: 1vh; */
+}
+.col{
+        height: 40px;
+        padding-top: 1vh;
+}
+
+.container{
+    padding: 10vh;
+    padding-left: 85vh;
+    width: 200vh;
+}
+button{
+    width: 10vh;
+    height: 10vh;
+    font-size: larger;
+    border-radius: 5px;
+
+}
+.calc{
+    background-color: rgb(82, 81, 80);
+    height: 62vh;
+    width: 19vw;
+    padding: 1vh;
+}
+.calc input{
+    width: 18vw;
+    margin: 1vh;
+    font-size: larger;
+    border-radius: 5px;
+
+}

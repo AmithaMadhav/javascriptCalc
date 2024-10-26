@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+ <div class="container">
+    <div class="calc">
+        <div class="row"><input type="text" placeholder="0" id="result" class="form-control" readonly></div>
+    <div class="row row1">
+        <div class="col"><button onclick="displayContent('1')">1</button></div>
+        <div class="col"><button onclick="displayContent('2')">2</button></div>
+        <div class="col"><button onclick="displayContent('3')">3</button></div>
+        <div class="col"><button onclick="displayContent('+') ">+</button></div>
+    </div> 
+    <div class="row row2">
+        <div class="col"><button onclick="displayContent('4')">4</button></div>
+        <div class="col"><button onclick="displayContent('5')">5</button></div>
+        <div class="col"><button onclick="displayContent('6')">6</button></div>
+        <div class="col"><button onclick="displayContent('-')">-</button></div>
+    </div>
+    <div class="row row3">
+        <div class="col"><button onclick="displayContent('7')">7</button></div>
+        <div class="col"><button onclick="displayContent('8')">8</button></div>
+        <div class="col"><button onclick="displayContent('9')">9</button></div>
+        <div class="col"><button onclick="displayContent('x')">x</button></div>
+    </div>
+    <div class="row row3">
+        <div class="col"><button onclick="calcScreenClear()">AC</button></div>
+        <div class="col"><button onclick="displayContent('0')">0</button></div>
+        <div class="col"><button onclick="calcOutput()">=</button></div>
+        <div class="col"><button onclick="displayContent('/')">/</button></div>
+    </div>
+    <div class="row row3">
+        <div class="col"><button onclick="removeLastDigit()">&#9003</button></div>
+       
+    </div>
+    </div>
+ </div>
+
+
+ 
+</body>
+<script src="./main.js"></script>
+</html>
+
+<!-- 
+<div class="calc-body mt-5"></div>
+<div class="calc-screen"></div>
+    <div id="calc-typed">
+            <input type="text">
+    </div>
+</div>
+<div class="cal-button-row">
+    <button onclick="displayContent('*')" id="seven">7</button>
+    <button onclick="displayContent('')" id="eight">8</button>
+    <button onclick="displayContent('')" id="nine">9</button>
+    <button onclick="displayContent('')" id="mul">*</button>
+    <button onclick="displayContent('')" id="four">4</button>
+    <button onclick="displayContent('')" id="five">5</button>
+    <button onclick="displayContent('')" id="six">6</button>
+    <button onclick="displayContent('')" id="sub">-</button>
+    <button onclick="displayContent('')" id="one">1</button>
+    <button onclick="displayContent('')" id="two">2</button>
+    <button onclick="displayContent('')" id="three">3</button>
+    <button onclick="displayContent('')" id="add">+</button>
+    <button  id="AC">AC</button>
+    <button onclick="displayContent('')" id="0">0</button>
+    <button onclick="displayContent('')" id="div">/</button>
+    <button id="equal">=</button>
+</div> -->
